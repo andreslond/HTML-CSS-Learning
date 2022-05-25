@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    /* 16 pixeles */
+}
+
+.container {
+    /* 3 pixeles */
+    border: 0.3rem solid black;
+    
+    /* The container has the display felx to affect all he children*/
+    display: flex;
+    
+    /*Direction of the order can be changed to row, row-reverse, column, column-reverse*/
+    /*flex-direction: column-reverse;*/
+
+    /* Each container will be changed to the next line if the screen is shorter 
+    The container decide where we will watch the content.
+    Other opotio is wrap-reverse*/
+    flex-wrap: wrap;
+    /*The easy way to center things 
+    These are the vales: start, center, end, 
+    Also we can asign space between the elements
+    space-between: Only space between the elements.
+    space-around: Same space between the elements and the corners
+    space-evenly: Same space between the elements and the corners, each sapce equal
+    */
+    justify-content: space-evenly;
+
+}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+}
+
+.box1 {
+    background-color: darkgrey;
+}
+
+.box2 {
+    background-color: brown;
+}
+
+.box3 {
+    background-color: antiquewhite;
+}
+
+.box4 {
+    background-color: cornflowerblue;
+}
+
+.box5 {
+    background-color: darkolivegreen;
+}
+
+.box6 {
+    background-color: darkorange;
+}

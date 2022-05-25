@@ -1,0 +1,9 @@
+main {
+    width: 100%;
+    height: 500px;
+    border: 10px solid grey;
+    padding: 20px 35px; /* Este estilo agrega 20px arriba y abajo
+    y luego agrega 35px a la izquieda y a la derecha*/    
+    /* padding: 20px; /* Este estilo agrega 20px en todos 
+    los lados del padding */
+}

@@ -1,0 +1,16 @@
+/* Elemento */
+P {
+    color: blue;
+    font-size: medium;
+}
+
+/* Clase */
+.parrafo {
+    color: rebeccapurple;
+}
+
+/* ID */
+#texto {
+    color: wheat;
+    font-size: 30px;
+}
