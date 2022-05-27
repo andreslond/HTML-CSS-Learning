@@ -25,34 +25,49 @@ body {
 
     /* Each container will be changed to the next line if the screen is shorter 
     The container decide where we will watch the content.
-    Other opotio is wrap-reverse*/
-    flex-wrap: wrap;
-    /*The easy way to center things 
+    Other opotio is wrap-reverse
+    flex-wrap: wrap;*/
+    
+    /*The easy way to center things: 
+    justify-content
     These are the vales: start, center, end, 
     Also we can asign space between the elements
     space-between: Only space between the elements.
     space-around: Same space between the elements and the corners
     space-evenly: Same space between the elements and the corners, each sapce equal
-    */
-    justify-content: space-evenly;
 
+    justify-content: space-evenly;
+    */
+
+    height: 50vh;
+    /*Vertical Aligment
+    options: 
+        flex-start
+        flex-end
+        center
+        stretch
+        baseline*/
+    align-items: stretch;
 }
 
 .box {
     width: 10rem;
-    height: 10rem;
+    
 }
 
 .box1 {
     background-color: darkgrey;
+    order:1
 }
 
 .box2 {
     background-color: brown;
+    order: 6;
 }
 
 .box3 {
     background-color: antiquewhite;
+    order:4;
 }
 
 .box4 {
