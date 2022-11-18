@@ -19,7 +19,7 @@
 .main-nav__item a:hover {
     color: blue;
 }
-
+/* pseudo class */
 .main-nav__item a:active {
     color: red;
 }

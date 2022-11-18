@@ -4,8 +4,21 @@
     padding: 0;
 }
 
-/* Por defecto el position es statci */
 .parent {
+    display: flex;  
+
+    flex-direction: column;
+}
+
+.box {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+/* Por defecto el position es statci */
+/*
+ .parent {
     border: 2px black dotted;
     display: inline-block;
 }
@@ -19,4 +32,4 @@
 
 #two {
     background-color: green;
-}
+} */
