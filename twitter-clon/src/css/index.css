@@ -1,0 +1,57 @@
+.header {
+    margin: 20px;
+    
+}
+
+.header--icon {
+    color: var(--brand-color);
+    font-size: 30px;
+}
+
+.main--titles {
+    margin: 20px;
+    font-weight: 700;
+    width: 40%;
+}
+
+h1.main--title {
+    font-size: 34px;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.main--button {
+    padding: 10px;
+    border: 0;
+    border-radius: 15px;
+    font-size: 18px;
+    margin: 10px;
+    width: 300px;
+    height: 45px;
+    text-overflow: ellipsis;    
+}
+
+.main--button__white {
+    border: 1px solid gray;
+    background: white;
+}
+
+.main--button__blue {
+    background:  var(--brand-color);
+    color: white;    
+}
+
+.main--division {
+    text-align: center;
+    width: 50%;
+}
+
+.main--text {
+    font-size: 10px;
+    width: 45%;
+    margin: 5px 20px 20px;
+}
+
+.text--link {
+    color: var(--brand-color);
+}
