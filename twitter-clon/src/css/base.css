@@ -1,11 +1,16 @@
 :root {
-    --brand-color: #1d9bf0
+    --brand-color: #1d9bf0;
+    --gray-color: #cfd9de;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
 }
 
 a {
