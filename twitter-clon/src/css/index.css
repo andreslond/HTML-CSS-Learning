@@ -1,5 +1,5 @@
 .header {
-    margin: 20px;
+    margin: 30px 0;
 
 }
 
@@ -14,7 +14,7 @@
 }
 
 .main--titles {
-    margin: 20px;
+    margin: 20px 0;
     font-weight: 700;
     width: 80%;
     max-width: 350px;
@@ -106,6 +106,7 @@ h1.titles--title {
 .footer--list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .footer--list li {
@@ -126,15 +127,49 @@ h1.titles--title {
         display: flex;
         flex-direction: row-reverse;
         width: 100vw;
-        height: 100vh;
+        height: 90vh;
     }
 
-    .helper--content, .main--background {
-        width: 50%;
+    .header {
+        margin: 0 0 30px;
+    }
+
+    .main {
+        display: flex;
+        align-items: center;
         height: 100%;
+    }
+
+    .helper--content {
+        width: 60%;
+        height: 100%;
+    }
+
+    .main--background {
+        width: 40%;
+        height: 100%;
+    }
+
+    .main--button {
+        display: block;
+        width: 300px;
+        margin: 10px 0;
+    }
+
+    .main--division {
+        max-width: 300px;
+        margin: 0;
+    }
+
+    .main--text {
+        width: 300px;
     }
 
     h1.titles--title {
         font-size: 5rem;
+    }
+
+    .footer {
+        height: 10vh;
     }
 }
