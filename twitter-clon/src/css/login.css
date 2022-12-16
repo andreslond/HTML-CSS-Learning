@@ -1,0 +1,153 @@
+.helper {
+    background-color: grey;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.general {
+    width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.general--header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.header--exit {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0 20px;
+}
+
+.exit--icon {
+    font-size: 1.5rem;
+}
+
+.exit--icon :hover {
+    cursor: pointer;
+}
+
+.header--twitter {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.twitter--icon {
+    color: var(--brand-color);
+    font-size: 3rem;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main--title {
+    width: 50%;
+    margin: 0 auto 10px;
+}
+
+.main--title h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 10px 10px
+}
+
+.main--form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form--button {
+    padding: 10px;
+    border: 0;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    margin: 10px 0;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.form--button img {
+    height: 15px;
+    margin: 0 6px;
+}
+
+.button--apple {
+    font-size: 2rem;
+}
+
+.form--button__bold {
+    font-weight: 700;
+}
+
+.form--button__padding {
+    padding: 7px;
+}
+
+.form--button__white {
+    border: 1px solid var(--gray-color);
+    background: white;
+}
+
+.form--button__black {
+    border: 1px solid var(--gray-color);
+    background: black;
+    color: white;
+}
+
+.form--division {
+    text-align: center;
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    /*Alineado de forma vertical */
+    justify-content: space-between;
+    font-size: 1.6rem;    
+}
+
+.form--division div {
+    width: 45%;
+    border-top: 1px solid var(--gray-color)
+}
+
+.form--user {
+    width: 100%;    
+}
+
+.user--input {
+    padding: 20px;
+    border: 1px;
+    font-size: 1.6rem;
+    margin: 10px 0;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.user--input__border {
+    border: 1px solid var(--gray-color);
+}
+
+.main--footer {
+    margin: 30px auto 60px;
+    font-size: 2rem;
+    color: #536471;
+}
+
+.footer--link {
+    color: var(--brand-color);
+}

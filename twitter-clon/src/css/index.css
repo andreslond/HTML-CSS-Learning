@@ -165,6 +165,14 @@ h1.titles--title {
         width: 300px;
     }
 
+    .main--login :hover {
+        cursor: pointer;
+    }
+
+    .main--register :hover {
+        cursor: pointer;
+    }
+
     h1.titles--title {
         font-size: 5rem;
     }

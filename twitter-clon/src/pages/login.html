@@ -4,22 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lLogin</title>
+    <title>Login</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
         rel="stylesheet"/>
     <script src="https://kit.fontawesome.com/af0bf7190a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../../src/css/base.css" />
     <link rel="stylesheet" href="../../src/css/login.css" />
 </head>
-<body>
-    <main>
-        <section>
-            <span class="header--icon"><i class="fa-brands fa-twitter"></i></span>
-        </section>
-        <h1>Inicia sesión en Twitter</h1>
-        <form action="">
-            
-        </form>
-    </main>
+<body class="helper">
+    <div class="general">
+        <header class="general--header">
+            <div class="header--exit">
+                <a href="/index.html"><span class="exit--icon"><i class="fa-solid fa-x"></i></span></a>
+            </div>
+            <div class="header--twitter">
+                <span class="twitter--icon"><i class="fa-brands fa-twitter"></i></span>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main--title">
+                <h1>Inicia sesión en</h1>
+                <h1>Twitter</h1>
+            </div>
+            <form action="" class="main--form">
+                <button class="form--button form--button__white">
+                    <span><img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" alt="googleLogo"></span>Iniciar sesión con Google
+                </button>
+                <button class="form--button form--button__bold form--button__padding form--button__white">
+                    <span class="button--apple"><i class="fa-brands fa-apple"></i></span> Iniciar sesión con Apple
+                </button>
+                <div class="form--division">
+                    <div></div>
+                    <span>o</span>
+                    <div></div>
+                </div>
+                <div class="form--user">
+                    <input class="user--input user--input__border" type="text" placeholder="Teléfono, correo electrónico o nombre">
+                </div>            
+                <button class="form--button form--button__black form--button__bold">Siguiente</button>
+                <button class="form--button form--button__bold form--button__white">¿Olvidaste tu contrseña?</button>
+            </form>
+            <div class="main--footer">
+                <span>¿No tienes una cuenta?</span><a class="footer--link" href="/src/pages/register.html"> Regístrate</a>
+            </div>
+        </main>
+    </div>
 </body>
 </html>
